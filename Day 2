@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+	int p, r, t, a, res;
+	printf("Enter two value\n");
+	scanf("%d%d%d", &p, &r, &t);
+	
+	res = (p*r*t)/100;
+	printf("output = %d", res);
+	return 0;
+}
